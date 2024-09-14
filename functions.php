@@ -62,7 +62,7 @@ final class ProghiveBeta{
 
     public function proghivebeta_setup(){
             new \Proghive\Beta\Functions();
-            new \Proghive\Beta\Enqueue();
+            // new \Proghive\Beta\Enqueue();
                
         }
 
