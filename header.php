@@ -1,1 +1,1 @@
-<h1>This is Header</h1>
+<div><h1 class="phbeta-header">This is Header</h1><div>

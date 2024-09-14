@@ -43,15 +43,15 @@ final class ProghiveBeta{
         /**
          * Theme Folders
          */
-        define( 'PROGHIVE_BETA_DIR', get_template_directory() );
-        define( 'PROGHIVE_ASSETS', PROGHIVE_BETA_DIR . '/assets' );
+        define( 'PHBETA_DIR', get_template_directory() );
+        define( 'PHBETA_ASSETS_DIR', PHBETA_DIR . '/assets' );
 
 
         /**
          * Theme Folders Directory Uri
          */
-        define( 'PROGHIVE_BETA_URI', get_template_directory_uri() );
-        define( 'PROGHIVE_ASSETS_URI', PROGHIVE_BETA_URI . '/assets' );
+        define( 'PHBETA_URI', get_template_directory_uri() );
+        define( 'PHBETA_DIR_URI', PHBETA_URI . '/assets' );
     }
 
 
@@ -61,7 +61,9 @@ final class ProghiveBeta{
      */
 
     public function proghivebeta_setup(){
-            new \Proghive\Beta\Functions();        
+            new \Proghive\Beta\Functions();
+            new \Proghive\Beta\Enqueue();
+               
         }
 
 }
