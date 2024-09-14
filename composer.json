@@ -1,0 +1,18 @@
+{
+    "name": "proghive/beta",
+    "description": "This Plugin will use for the proghive website. If anyone want to use this theme please contact us.",
+    "type": "wordpress-theme",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Proghive\\Beta\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jahid Munshi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
