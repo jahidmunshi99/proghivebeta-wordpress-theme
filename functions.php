@@ -45,13 +45,13 @@ final class ProghiveBeta{
          */
         define( 'PROGHIVE_BETA_DIR', get_template_directory() );
         define( 'PROGHIVE_ASSETS', PROGHIVE_BETA_DIR . '/assets' );
-        define( 'PROGHIVE_ASSETS', PROGHIVE_BETA_DIR . '/assets' );
+
 
         /**
          * Theme Folders Directory Uri
          */
         define( 'PROGHIVE_BETA_URI', get_template_directory_uri() );
-        define( 'PROGHIVE_ASSETS', PROGHIVE_BETA_URI . '/assets' );
+        define( 'PROGHIVE_ASSETS_URI', PROGHIVE_BETA_URI . '/assets' );
     }
 
 
